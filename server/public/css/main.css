@@ -1,0 +1,139 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+section{
+    padding: 0px 10rem 0px 10rem;
+}
+/* box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1) */
+.main-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px 10px 0px;
+}
+.main-header img{
+    width: 60px;
+    height
+}
+.main-header form input{
+    border-color: #B7B7B7;
+    border-width: 1px;
+    padding: 0px 50px;
+    width: 943px;
+    height: 40px;
+    font-weight: bold;
+}
+.input-field{
+    display: flex;
+    position: absolute;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 7px;
+    
+}
+.main-icons{
+    display: flex;
+    font-size: 25px;
+}
+.main-profile span{
+    font-weight: bold;
+}
+.second-profile{
+    width: 60px;
+    height: 60px;    
+    border-radius: 100%; 
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+/* EVENT */
+.main-banner{
+    background-color: #f4f4f4;
+    width: 100%;
+    height: 20rem;
+    text-align: center;
+    justify-content: center;
+}
+
+/* PRODUCT */
+.main-flex{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.main-product{
+    border-style: solid;
+    border-width: 0.5px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0px;
+}
+.main-product img{
+    width: 100%;
+    height: auto;
+    border-style: solid;
+    border-width: 0 0 0.5px 0;
+}
+.main-product .wrap-text{
+    padding: 0px 20px;
+    margin: 10px 0px;
+}
+.main-product p{
+    width: 100%;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.main-product label{
+    font-weight: bolder;
+    font-size: 2rem;
+}
+.main-product .wrap-button{
+    display: flex;
+    flex-direction: row;
+}
+.main-product a{
+    width: 100%;
+    text-decoration: none;
+}
+.main-product .button-favorite{
+    background-color: #0163D1;
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+    padding: 15px 0px;
+    width: 100%;
+    border: 0.5px solid #0163D1;
+}
+.main-product .button-favorite span{
+    width: 140px;
+    font-weight: bold;
+    color: white;
+}
+.main-product .button-favorite i{
+    color: white;
+}
+.main-product .button-cart{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+    padding: 15px 0px;
+    width: 100%;
+    border: 0.5px solid #0163D1;
+}
+.main-product .button-cart span{
+    width: 140px;
+    font-weight: bold;
+    color: #0163D1;
+}
+.main-product .button-cart i{
+    color: #0163D1;
+}
